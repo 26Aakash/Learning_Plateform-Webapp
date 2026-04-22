@@ -38,38 +38,6 @@ Learning-Management-System/
 ├── package.json
 └── README.md
 
-Installation and Setup
-1. Clone the Repository
-git clone https://github.com/your-username/lms-project.git
-cd lms-project
-2. Backend Setup
-cd server
-npm install
-
-Create a .env file inside the server directory:
-
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-3. Database Setup (MongoDB)
-Install MongoDB locally or use MongoDB Atlas
-Replace MONGO_URI with your connection string
-
-Example:
-
-mongodb+srv://username:password@cluster.mongodb.net/lms_db
-4. Run Backend Server
-npm start
-5. Frontend Setup
-cd ../client
-npm install
-npm start
-Usage
-Open the application at http://localhost:3000
-Register or log in
-Browse available courses
-Enroll and track progress
-Attempt quizzes and view results
 Authentication
 
 The application uses JWT-based authentication to secure user sessions and protect private routes such as dashboards and quizzes.
